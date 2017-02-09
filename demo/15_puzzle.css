@@ -1,0 +1,26 @@
+body {
+  background-color:#777;
+}
+
+#main {
+  right:0;
+  left:0;
+  margin:auto;
+  text-align:center;
+}
+
+.p_canvas {
+  width:256px;
+  height:256px;
+}
+
+.p_frame {
+  display:inline-block;
+  padding:0;
+  border:8px ridge #930;
+  height:256px;
+}
+
+#msg {
+  font-weight:bold;
+}

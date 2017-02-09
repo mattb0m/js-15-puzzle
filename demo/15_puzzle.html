@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>15 Puzzle</title>
+        <link rel="stylesheet" href="15_puzzle.css">
+        <script src="../15_puzzle.js"></script>
+    </head>
+    <body>
+        <div id="main">
+            <div class="p_frame">
+                <canvas id="origin" class="p_canvas"></canvas>
+            </div>
+            <div class="p_frame">
+                <canvas id="puzzle" class="p_canvas" onclick="slide_tile(event)"></canvas>
+            </div>
+            <p id="msg">Click a tile to move it into an adjacent empty space.<br>Complete the image.</p>
+        </div>
+        
+        <script>
+            init('img.jpg');
+        </script>
+    </body>
+</html>
